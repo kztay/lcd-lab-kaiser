@@ -61,7 +61,7 @@ void reactionGame() {
 
   // Display the reaction time on the LCD
   lcd.clear();
-  lcd.print("Your time:");
+  lcd.print("Thy time:");
   lcd.setCursor(0, 1);      // Move to the second row
   lcd.print(reactionTime);  // Show the reaction time in milliseconds
   lcd.print(" ms");
